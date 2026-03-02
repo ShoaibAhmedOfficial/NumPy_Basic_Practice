@@ -1,0 +1,26 @@
+import numpy as np
+zero=np.zeros(4)
+zero1=np.zeros((3,4))
+print(zero)
+print()
+print(zero1)
+print()
+
+one=np.ones(2)
+print(one)
+print()
+empty=np.empty(5)
+print(empty)
+
+aran=np.arange(4)
+print(aran)
+print()
+dia=np.eye(3)
+print(dia)
+print()
+dia=np.eye(3,5)
+print(dia)
+print()
+
+lisp=np.linspace(0,10,num=5 )
+print(lisp)
